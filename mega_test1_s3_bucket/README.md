@@ -12,3 +12,26 @@ Programming Language Used: Python(For measuring the upload perf and generating t
 
 Video POC: https://vimeo.com/902893167?ts=0&share=copy (Video Password: Qawzsx!123)
 
+# For S3 bucket CORS make add the below json template to allow the local server upload the file 
+
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "HEAD",
+            "POST",
+            "PUT"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": [
+            "ETag",
+            "x-amz-meta-custom-header"
+        ],
+        "MaxAgeSeconds": 3000
+    }
+]
