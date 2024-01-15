@@ -11,7 +11,7 @@ Chromedriver Windows version: 120
 # Steps to run:
 
 1. Once the code is cloned you need to run ``` pip install -r requirements.txt```
-2. Run python mega_test2_python_selenium.py
+2. Run python mega_test2_python_selenium.py (Make sure the chromedriver.exe should be present in the current directory where the script is running from)
 
 
 Video POC: https://vimeo.com/903067586?share=copy (Video Password: Qawzsx!123)
