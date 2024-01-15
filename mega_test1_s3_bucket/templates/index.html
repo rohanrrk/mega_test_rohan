@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> AWS S3 File Upload Performance Evaluater App </title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+		<script src="https://sdk.amazonaws.com/js/aws-sdk-2.693.0.min.js"></script>
+		<script type="text/javascript" src="static/app.js"></script>
+	</head>
+
+	<body>
+	
+		<input type="file" id="myFile" multiple size="50" onchange="uploadSampleFile()">
+		<br><p>Upload the file</p><br>
+    		<div id="myProgress" style="display:none;">
+      		<div id="myBar"></div>
+    		</div>
+	
+	</body>
+
+</html>
+
+
