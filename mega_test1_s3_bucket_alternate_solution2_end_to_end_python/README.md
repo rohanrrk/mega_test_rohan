@@ -1,4 +1,4 @@
-Test 2: Verify Mega linux download Links
+Test 1: S3 bucket opload performace and operations (Pyhton end to end script)
 
 Programming Language Used: Python
 OS: Can run on windows and Linux
