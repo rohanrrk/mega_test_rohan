@@ -1,0 +1,3 @@
+boto3==1.34.19
+matplotlib==3.3.4
+speedtest-cli==2.1.3
