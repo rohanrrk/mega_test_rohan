@@ -15,6 +15,39 @@ resource "segment_user" "id-9nHzbYrnjtufNgyRf7HJA4" {
           type = "WORKSPACE"
         },
       ]
+      role_id = "1Mc8DFJ5XdtkAaokYZCgoiUr6LJ"
+    },
+    {
+      resources = [
+        {
+          id = "r6UY6oUJ67jL4qSWjxLM5D"
+          labels = [
+          ]
+          type = "WORKSPACE"
+        },
+      ]
+      role_id = "1Mc8DFJmy6Vln5DZyS3SGBXjTdN"
+    },
+    {
+      resources = [
+        {
+          id = "r6UY6oUJ67jL4qSWjxLM5D"
+          labels = [
+          ]
+          type = "WORKSPACE"
+        },
+      ]
+      role_id = "1Mc8DGbc2C28CSKzqm4RCJlYAvx"
+    },
+    {
+      resources = [
+        {
+          id = "r6UY6oUJ67jL4qSWjxLM5D"
+          labels = [
+          ]
+          type = "WORKSPACE"
+        },
+      ]
       role_id = "1Mc8DHU42rYyIp94oBPexlvYpf8"
     },
     {
