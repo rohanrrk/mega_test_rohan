@@ -1,0 +1,14 @@
+import {
+  to = segment_destination_subscription.id-64a8750d379fffa5b79ced17_tndTpN7XWyFMN8VYmsu9UE
+  id = "64a8750d379fffa5b79ced17:tndTpN7XWyFMN8VYmsu9UE"
+}
+
+resource "segment_destination_subscription" "id-64a8750d379fffa5b79ced17_tndTpN7XWyFMN8VYmsu9UE" {
+  action_id      = "dT7LTFwsJcsPBk5xgQwuPr"
+  destination_id = "64a8750d379fffa5b79ced17"
+  enabled        = true
+  model_id       = null
+  name           = "Send Email"
+  settings       = "{\"bcc\":\"[]\",\"bodyType\":\"html\",\"bodyUrl\":\"https://messaging-cdn-app.segment.com/ac8bcae58aecda50dfd8b7749b1572efcbbf9338332ac5e92028f0ff6ace18fc/9abf579678e96a609833f456864f8c21a7a95d9c4fbe120f5fd1cfd6626db23d/jou_2SG8Y4n0UYB4h4lXlydgbNkncg7/email-64a8750d379fffa5b79ced17/body-b5d8b2032cb3c75e5dbd3fc0e3cf6141.html\",\"byPassSubscription\":false,\"customArgs\":{\"__segment_internal_api_url__\":\"https://api.segment.io\",\"__segment_internal_audience_id__\":\"aud_2SG8Z3HejbroA2cxPVzN7aDaXLE\",\"__segment_internal_correlation_id__\":\"jou_2SG8Y4n0UYB4h4lXlydgbNkncg7__email_0zuu9\",\"__segment_internal_engage_signature__\":\"9312b217970be59837f047e4a9a4fb30711dfb60a31abf186e69bfc58d7f66e3\",\"__segment_internal_journey_id__\":\"jou_2SG8Y4n0UYB4h4lXlydgbNkncg7\",\"__segment_internal_journey_state_id__\":\"email_0zuu9\",\"__segment_internal_workspace_id__\":\"r6UY6oUJ67jL4qSWjxLM5D\",\"__segment_internal_write_key__\":\"QZkhbzTr2EFegBWWYU57LxXUrpNZhJ5Q\",\"audience_id\":\"aud_2SG8Z3HejbroA2cxPVzN7aDaXLE\",\"campaign_key\":\"j_o_rerrewewrrw\",\"campaign_name\":\"rerrewewrrw\",\"correlation_id\":\"jou_2SG8Y4n0UYB4h4lXlydgbNkncg7__email_0zuu9\",\"journey_name\":\"rerrewewrrw\",\"step_name\":\"sdsdssd\",\"user_id\":{\"@path\":\"$.userId\"},\"workspace_id\":\"r6UY6oUJ67jL4qSWjxLM5D\",\"write_key\":\"QZkhbzTr2EFegBWWYU57LxXUrpNZhJ5Q\"},\"eventOccurredTS\":{\"@path\":\"$.timestamp\"},\"externalIds\":{\"@arrayPath\":[\"$.external_ids\",{\"groups\":{\"@path\":\"$.groups\"},\"id\":{\"@path\":\"$.id\"},\"preferencesLink\":{\"@path\":\"$.preferencesLink\"},\"subscriptionStatus\":{\"@path\":\"$.isSubscribed\"},\"type\":{\"@path\":\"$.type\"},\"unsubscribeLink\":{\"@path\":\"$.unsubscribeLink\"}}]},\"fromDomain\":\"rohanevildoer.in\",\"fromEmail\":\"erer@rohanevildoer.in\",\"fromName\":\"ererer\",\"groupId\":\"\",\"previewText\":\"\",\"replyToEmail\":\"erer@rohanevildoer.in\",\"replyToEqualsFrom\":true,\"replyToName\":\"ererer\",\"send\":true,\"subject\":\"ererer\",\"traitEnrichment\":true,\"traits\":{\"@path\":\"$.properties\"},\"userId\":{\"@path\":\"$.userId\"}}"
+  trigger        = "type = \"track\" and event = \"Audience Entered\""
+}
