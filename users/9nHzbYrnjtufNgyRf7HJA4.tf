@@ -15,7 +15,7 @@ resource "segment_user" "id-9nHzbYrnjtufNgyRf7HJA4" {
           type = "WORKSPACE"
         },
       ]
-      role_id = "1PWCliYHNGD6q2xVM3MjSCD5WRU"
+      role_id = "1Mc8DFMmZbyzdEWmE6k8JVgKAiE"
     },
   ]
 }
