@@ -9,13 +9,13 @@ resource "segment_user" "id-9nHzbYrnjtufNgyRf7HJA4" {
     {
       resources = [
         {
-          id = "r6UY6oUJ67jL4qSWjxLM5D"
+          id = "sfnc_UFqb8qgnHN"
           labels = [
           ]
-          type = "WORKSPACE"
+          type = "FUNCTION"
         },
       ]
-      role_id = "1Mc8DFMmZbyzdEWmE6k8JVgKAiE"
+      role_id = "1YMnOJ07z3IqfTWhU1SCvChBpRj"
     },
   ]
 }
